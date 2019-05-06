@@ -12,18 +12,17 @@ export class BarraComponent {
     responsive: true
   };
 
-  // public barChartLabels: Array<any> = ['2006', '2007', '2008', '2009', '2010', '2011', '2012'];
-  public barChartLabels: Array<any> = ['Aprobadas'];
+  public barChartLabels: Array<any> = ['Aprobadas', 'Pendiente', 'Rechazada'];
   public barChartType: String = 'bar';
   public barChartLegend = true;
 
   public barChartData: any[] = [
-    { data: [65, 59, 80, 81, 56, 55, 40], label: 'Series A' },
-    { data: [28, 48, 40, 19, 100, 27, 90], label: 'Series B' },
-    { data: [20, 40, 40, 19, 80, 20, 90], label: 'Series D' },
-    { data: [65, 59, 80, 81, 56, 55, 40], label: 'Series E' },
-    { data: [28, 48, 40, 19, 100, 27, 90], label: 'Series F' },
-    { data: [20, 40, 40, 19, 80, 20, 90], label: 'Series G' }
+    { data: [65, 59, 80], label: 'Trx A' },
+    { data: [28, 48, 40], label: 'Trx B' },
+    { data: [19, 40, 40], label: 'Trx D' },
+    { data: [65, 59, 80], label: 'Trx E' },
+    { data: [28, 48, 40], label: 'Trx F' },
+    { data: [20, 40, 40], label: 'Trx G' }
   ];
 
   // events
